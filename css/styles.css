@@ -1,0 +1,64 @@
+/* Reset some default styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  width: 80%;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.patient-info {
+  margin-bottom: 20px;
+}
+
+.patient-info h2 {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sidebar */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  color: #007BFF;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Data UI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>
+<body>
+  <div class="sidebar">
+    <nav>
+      <ul>
+        <li>Dashboard</li>
+        <li>Patients</li>
+        <li>Settings</li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main">
+    <header>
+      <h1>Patient Data</h1>
+    </header>
+    <div class="content">
+      <div class="patient-info">
+        <h2>Jessica Taylor</h2>
+        <p>Age: <span id="age">Loading...</span></p>
+        <p>Gender: <span id="gender">Loading...</span></p>
+      </div>
+      <canvas id="bloodPressureChart"></canvas>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
